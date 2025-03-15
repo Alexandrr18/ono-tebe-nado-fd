@@ -291,9 +291,13 @@
   font-size: 18px;
 }
 
-.footer__menu-item-three {
+.footer__menu-item {
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+.footer__menu-item-active {
+  text-decoration: none;
 }
 
 /* footer ссылки */
