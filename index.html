@@ -14,32 +14,26 @@
       <nav class="header-menu">
         <ul class="header__menu-list">
           <li class="header__menu-item header__menu-item-active">
-            <a class="header__menu-link">главная</a>
+            <a class="header__menu-link-active" href="#0">главная</a>
           </li>
           <li class="header__menu-item"> 
-            <a class="header__menu-link">посмотреть лоты</a>
+            <a class="header__menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li class="header__menu-item">
-            <a class="header__menu-link">об аукционе</a>
+            <a class="header__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
       <a class="header-logo">
         <img class="header__logo-image" src="./images/logo-black.svg" alt="логотип проекта">
       </a>
-      <address class="header-address">
-        <ul class="header__address-list">
-          <li class="header__address-item">
-            <a class="header__address-link" href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li class="header__address-item">
-            <a class="header__address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="header__address-link-active">
-            <a class="header__address-link" href="#0">наб. Принсенграхт 263-265. Амстердам</a>
-          </li>
-        </ul>
-      </address>
+      <div class="header-address-wrp">
+        <address class="address">
+              <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a>
+              <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+              <p class="address-link" href="#0">наб. Принсенграхт 263-265. Амстердам</p>
+        </address>
+      </div>
     </header>
     <main>
       <section class="cover">
@@ -59,11 +53,11 @@
           Лоты
         </h2>
         <ul class="lots__card-list">
-          <li class="lots__card-item type__card-film">
-            
-            <a class="card__link">
-              <div class="overlay"></div>
-              <article class="card">
+          <li class="lots__card-item">
+            <a class="card__link" href="#0">
+              <!-- <div class="overlay"></div> -->
+              <article class="card type__card-film">
+                <div class="overlay"></div>
                 <h3 class="card-title">
                   Фильм режиссёра, который бросил киношколу
                 </h3>
@@ -75,11 +69,11 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-item type__card-book">
-            <div class="card-overlay"></div>
-            <a class="card-link">
-              <div class="overlay"></div>
-              <article class="card">
+          <li class="lots__card-item">
+            <a class="card-link" href="#0">
+              <!-- <div class="overlay"></div> -->
+              <article class="card type__card-book">
+                <div class="overlay"></div>
                 <h3 class="card-title">
                   Книга, где описан один скучный день 
                   из жизни рекламного агента
@@ -94,11 +88,11 @@
               </article>
             </a>
           </li>
-          <li class="lots__card-item type__card-picture">
-            <div class="card-overlay"></div>
-            <a class="card-link">
-              <div class="overlay"></div>
-              <article class="card">
+          <li class="lots__card-item">
+            <a class="card-link" href="#0">
+              <!-- <div class="overlay"></div> -->
+              <article class="card type__card-picture">
+                <div class="overlay"></div>
                 <h3 class="card-title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -124,7 +118,7 @@
             об аукционе
            </h2>
            <div class="about__text">
-              <p class="about__paragraph-one">
+              <p class="about__paragraph">
                Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. 
                Наши лоты вообще не должны были попасть ни на один аукцион. 
                Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? 
@@ -141,31 +135,27 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="footer-contacts">
-        <ul class="footer__address-list">
-          <li class="footer__address-item">
-            <a class="footer__address-link" href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li class="footer__address-item">
-            <a class="footer__address-link" href="info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <a class="footer__address-link-active" href="#0">наб. Принсенграхт 263-265. Амстердам</a>
-        </ul>
-      </address>
+      <div class="footer-address-wrp">
+        <address class="address">
+              <a class="address-link" href="tel:+99995555555">+9 999 555 5555</a>
+              <a class="address-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+              <p class="address-link address-link-active" href="#0">наб. Принсенграхт 263-265. Амстердам</p>
+        </address>
+      </div>
       <nav class="footer-menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-item footer__menu-item-active">
-            <a class="footer__menu-link">главная</a>
+            <a class="footer__menu-link footer__menu-link-active" href="#0">главная</a>
           </li>
           <li class="footer__menu-item"> 
-            <a class="footer__menu-link">посмотреть лоты</a>
+            <a class="footer__menu-link" href="#0">посмотреть лоты</a>
           </li>
           <li class="footer__menu-item">
-            <a class="footer__menu-link">об аукционе</a>
+            <a class="footer__menu-link" href="#0">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <nav class="footer-links">
+      <div class="footer-links">
         <ul class="footer-list">
           <li class="footer__links-item">
             <a class="footer__links-link" href="#0">
@@ -183,7 +173,7 @@
             </a>
           </li>
         </ul>
-      </nav>
+      </div>
     </footer>
   </body>
 </html> 
