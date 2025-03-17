@@ -60,13 +60,13 @@ main {
   list-style-type: none;
 }
 
-.address-link {
+.address-text {
   text-decoration: underline;
   text-underline-offset: 5px;
   display: block;
 }
 
-.address-link-active {
+.address-text-active {
   text-decoration: none;
 }
 
@@ -303,7 +303,7 @@ main {
   text-underline-offset: 4px;
 }
 
-.address-link-map {
+.address-text-map {
   text-decoration: none;
 }
 
